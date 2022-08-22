@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Materiales en metros</title>
+
+<!-- Google fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Lato:wght@300&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+
+<!-- Box icons -->
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Form -->
+
+<!-- Altura -->
+    <br>    
+    <form id="miFormulario" name="">
+        <label class="altura">Altura<i class='bx bxs-chevrons-up'></i>: 
+    <input class="la" type="" name="" id="valor0" autofocus placeholder="usar punto para decimales">m.
+        </label>
+        <button onclick="limpiar();">Limpiar Campos
+        </button>
+    <br>
+    <br>
+
+<!-- Paredes -->  
+<section>
+
+    <label>Pared #1: </label>
+    <input type="" name="" id="valor1"
+    value="" placeholder="0"><span>m.</span>
+
+    <br>
+    <br>
+
+    <label>Pared #2: </label>
+    <input type="" name="" id="valor2"
+    value="0"><span>m.</span>
+
+    <br>
+    <br>
+
+    <label>Pared #3: </label>
+    <input type="" name="" id="valor3"
+    value="0"><span>m.</span>
+
+    <br>
+    <br>
+
+    <label>Pared #4: </label>
+    <input type="" name="" id="valor4"
+    value="0"><span>m.</span>
+
+    <br>
+    <br>
+
+    <label>Pared #5: </label>
+    <input type="" name="" id="valor5"
+    value="0"><span>m.</span>
+    <br>
+    <br>
+        
+    <label>Pared #6: </label>
+    <input type="" name="" id="valor6"
+    value="0"><span>m.</span>
+
+    <br>
+    <br>
+        
+    <label>Pared #7: </label>
+    <input type="" name="" id="valor7"
+    value="0"><span>m.</span>
+
+    <br>
+    <br>
+        
+    <label>Pared #8: </label>
+    <input type="" name="" id="valor8"
+    value="0"><span>m.</span>
+    <br>
+    <br>
+        
+    <label>Pared #9: </label>
+    <input type="" name="" id="valor9"
+    value="0"><span>m.</span>
+    <br>
+    <br>
+        
+    <label>Pared #10: </label>
+    <input type="" name="" id="valor10"
+    value="0"><span>m.</span>
+    <br>
+    <br>
+
+</section> 
+
+</form>    
+
+
+    <button type="button" onclick="ejecutar();">Ejecutar</button>
+
+
+<section>
+    <p> Total Suma Paredes: <span id="resultadosuma"></span></p>
+    
+</section>
+
+
+
+    <script type="text/javascript" src="js/funciones.js">
+    </script>    
+</body>
+</html>

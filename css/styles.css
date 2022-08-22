@@ -1,0 +1,28 @@
+html{
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(204, 9, 9);
+    font-size: 110%;
+}
+
+input {
+    width: 6%;
+}
+
+/* Altura */
+
+.altura{
+    color: rgb(10, 176, 32);  
+}
+.altura i{
+    color:rgb(10, 176, 32);
+}
+
+
+#valor0 {
+    margin-left: 0.105%;
+    width: 6%;
+}
+#valor0 span{
+    color: rgb(10, 176, 32);
+}
